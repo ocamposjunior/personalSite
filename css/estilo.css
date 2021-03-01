@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.borda {
+	border: 1px solid red;
+}
+
+@font-face {
+	font-family: "prestigious";
+	src: url("../fonts/PrestigiousOlives.woff");
+}
+
+@font-face {
+	font-family: "hairStyles";
+	src: url("../fonts/HairStyles.woff");
+}
+
+/* Header
+****************************************/
+
+.navbar-home {
+	background-image: linear-gradient(to left, rgb(54, 137, 252), rgb(111, 170, 253));
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #FFF;
+	font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #000;
+}
+
+.logoEscrito {
+	font-size: 24px;    /* Personalizando o logo escrito*/
+	font-family: "prestigious";
+}
+
+
+/* capa
+****************************************/
+
+#capa {
+	background-image: linear-gradient(to left, rgb(54, 137, 252), rgb(111, 170, 253));
+}
+
+.alinha-capa {
+	margin-top: 50px;
+}
+
+.texto-capa {
+	color: #FFF;
+	font-family: hairStyles;
+	margin-top: 150px;
+}
+
+.texto-capa2 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.texto-capa3 {
+	color: #FFF;
+	font-family: hairStyles;
+}
+
+.texto-simples {
+	color: #FFF;
+	font-size: 20px;
+	font-family: "arial", sans-serif;
+}
+
+.btn-capa a{
+	text-decoration: none;
+	color: #000;
+	background: #FFF;
+	border-radius: 20px;
+}
+
+.btn-capa a:hover{
+	border: 2px solid #FFF;
+	background: transparent;
+	color: #FFF;
+}
+
+
+/* Seção Tecnologia
+****************************************/
+
+.h3-tec {
+	font-family: "Helvetica", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.h5-tec {
+	font-family: "Helvetica", sans-serif;
+	font-size: 15px;
+	color: #b3b3cc;
+}
+
+.texto-cinza {
+	color: #666699;
+	font-family: "Helvetica", sans-serif;
+}
+
+/* Seção Sobre mim
+****************************************/
+#sobreMim {
+	background: #f0f0f5;
+}
+
+.h3-sobreMim {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 70px;
+}
+
+.fundo-branco {
+	background: #FFF;
+	width: 430px;
+}
+
+.links-icones a {
+	text-decoration: none;
+	color: #666699;
+}
+
+
+/* Seção Qualificações
+****************************************/
+
+.divisor {
+	height: 2px;
+	color: #000;
+}
+
+
+/* Seção Qualificações
+****************************************/
+
+.botao-submit {
+	border-radius: 10px;
+	width: 100px;
+}
+
+
+/* Seção contato
+****************************************/
+
+.esquerda {
+	width: 40%;
+}
+
+.direita {
+	width: 40%;
+}
+
+
+/* Footer
+****************************************/
+ footer {
+ 	background: #222;
+ 	color: #FFF;
+ }
+
+
+
+
+
+
+/* Media Queries
+****************************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.texto-capa {
+		color: #FFF;
+		font-family: hairStyles;
+		margin-top: 0px;
+     }
+
+     .texto-capa2 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	}
+
+	.texto-capa3 {
+	color: #FFF;
+	font-family: hairStyles;
+	font-size: 50px;
+	}
+
+	.h3-tec {
+	font-family: "Helvetica", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+	.h3-sobreMim {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 70px;
+}
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.texto-capa {
+		color: #FFF;
+		font-family: hairStyles;
+		margin-top: 0px;
+     }
+
+     .alinha-capa {
+		margin-top: 90px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.texto-capa {
+		color: #FFF;
+		font-family: hairStyles;
+		margin-top: 0px;
+     }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.texto-capa {
+		color: #FFF;
+		font-family: hairStyles;
+		margin-top: 150px;
+     }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
